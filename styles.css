@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .figjam-container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 2px dashed #ddd;
+  }
+  
+  .title-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .title-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd600;
+    margin: 0;
+  }
+  
+  .sparkles {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .sparkle {
+    width: 12px;
+    height: 12px;
+    background-color: #ffd600;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  .sticky-note {
+    background: #fff7b2;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px auto 0;
+    text-align: left;
+    border: 2px solid #ffeb99;
+  }
+  
+  .sticky-note p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  .icons-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .icons-section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  
+  .shapes-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .diamond {
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    border-radius: 4px;
+  }
+  
+  .yellow {
+    background-color: #ffeb99;
+  }
+  
+  .green {
+    background-color: #b2f7b2;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .bubble {
+    background-color: #e3f2fd;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+  }
+  
+  .flowchart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .shape {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shape.rectangle {
+    width: 70px;
+    height: 50px;
+    transform: none;
+  }
+  
+  .decorations {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .decorations img {
+    width: 30px;
+    height: 30px;
+  }
+  
